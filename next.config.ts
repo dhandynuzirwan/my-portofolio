@@ -1,10 +1,10 @@
 import type { NextConfig } from "next";
 
-const basePath = process.env.NODE_ENV === "production" ? "/Resume-Nextjs" : "";
+const basePath = process.env.NODE_ENV === "production" ? "/my-portofolio" : "";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: '/my-portofolio',
+  basePath,
   assetPrefix: basePath,
   images: {
     unoptimized: true,
