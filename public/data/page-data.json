@@ -74,16 +74,16 @@
     },
     "contactLinks": {
         "socialLinks": [{
-                "title": "Dribble",
-                "href": "/"
+                "title": "Behance",
+                "href": "https://www.behance.net/dhandynuzirwan"
             },
             {
-                "title": "Facebook",
-                "href": "/"
+                "title": "Instagram",
+                "href": "https://www.instagram.com/dhandyone/"
             },
             {
                 "title": "LinkedIn",
-                "href": "/"
+                "href": "https://www.linkedin.com/in/ramadhandynuzirwan/"
             }
         ],
         "contactInfo": [{
