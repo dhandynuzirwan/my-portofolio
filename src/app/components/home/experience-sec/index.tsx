@@ -21,28 +21,28 @@ const ExperienceSec = () => {
             title: "UI/UX Designer & Web Developer (Intern)",
             company: "PT Faltek Cahaya Indonesia - Semarang",
             type: "Intern",
-            description: "Designed and developed a financial management web system for a contractor company[cite: 14, 54]. Created wireframes, user flows, and high-fidelity prototypes in Figma[cite: 15, 55]."
+            description: "Designed and developed a financial management web system for a contractor company. Created wireframes, user flows, and high-fidelity prototypes in Figma."
         },
         {
             year: "Aug 2024",
             title: "Panen Pintar - 2nd Place Winner",
             company: "Technology Days (UI/UX Competition, National Level)",
             type: "Competition", // Menggunakan 'type' Kompetisi
-            description: "Designed a smart farming mobile app prototype using Figma[cite: 27, 69]. Conducted user research, competitor analysis, and pain point identification[cite: 28, 70]."
+            description: "Designed a smart farming mobile app prototype using Figma. Conducted user research, competitor analysis, and pain point identification."
         },
             {
             year: "Mar 2024",
             title: "UI/UX Designer & Project Manager",
             company: "PT Bias Promosindo Jaya",
             type: "Freelance", // Asumsi, bisa diganti
-            description: "Led the team in developing a company profile website from planning to deployment[cite: 19, 60]. Designed responsive UI layouts using Figma and Bootstrap[cite: 20, 61]."
+            description: "Led the team in developing a company profile website from planning to deployment. Designed responsive UI layouts using Figma and Bootstrap."
         },
         {
             year: "Jan 2024",
             title: "Social Media Admin & Visual Designer",
             company: "Master's Program in Mathematics Education, UAD",
             type: "Part-time", // Asumsi, bisa diganti
-            description: "Designed engaging visual content, banners, and templates for social media using Figma[cite: 23, 65]. Analyzed content performance and optimized visuals[cite: 24, 66]."
+            description: "Designed engaging visual content, banners, and templates for social media using Figma. Analyzed content performance and optimized visuals."
         }
     ];
 

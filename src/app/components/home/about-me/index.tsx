@@ -35,7 +35,7 @@ const AboutMe = () => {
 
               <div className="w-full lg:max-w-2xl flex-1 space-y-4">
                 <p>
-                  I am a passionate Informatics Engineering graduate from Ahmad Dahlan University (GPA: 3.71 / 4.00) with a strong interest in UI/UX Design, Web Development, and User-Centered Design.
+                  Graduate from Ahmad Dahlan University (GPA: 3.71 / 4.00) with a strong interest in UI/UX Design, Web Development, and User-Centered Design.
                 </p>
 
                 <p>

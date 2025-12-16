@@ -39,9 +39,9 @@ const Contact = () => {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
 
-    fetch("https://formsubmit.co/ajax/bhainirav772@gmail.com", {
+    fetch("https://formsubmit.co/ajax/dhandynuzirwan@gmail.com", {
       method: "POST",
-      headers: { "Content-type": "application/json" },
+      headers: { "Content-type": "application/json", "Accept": "application/json"},
       body: JSON.stringify({
         name: formData.name,
         number: formData.number,
