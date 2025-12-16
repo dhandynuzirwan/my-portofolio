@@ -14,19 +14,19 @@
             }
         ],
         "socialItems": [{
-                "platform": "dribbble",
-                "icon": "/images/icon/dribble-icon.svg",
-                "link": "https://dribbble.com"
+                "platform": "behance",
+                "icon": "/images/icon/behance-icon.svg",
+                "link": "https://www.behance.net/dhandynuzirwan"
             },
             {
                 "platform": "linkedin",
                 "icon": "/images/icon/linkedin-icon.svg",
-                "link": "https://linkedin.com"
+                "link": "https://www.linkedin.com/in/ramadhandynuzirwan/"
             },
             {
-                "platform": "facebook",
-                "icon": "/images/icon/facebook-icon.svg",
-                "link": "https://facebook.com"
+                "platform": "instagram",
+                "icon": "/images/icon/instagram-icon.svg",
+                "link": "https://www.instagram.com/dhandyone/"
             }
         ]
     },

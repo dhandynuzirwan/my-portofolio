@@ -27,14 +27,16 @@ const ContactBar = () => {
       <div className="border-t border-softGray">
         <div className="container">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 py-6 md:py-7">
-            {/* Contact Items */}
+            {/* Contact Items (Email/Phone) */}
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-1.5 md:gap-5 lg:gap-11">
               {contactBarData?.contactItems?.map(
                 (value: any, index: number) => (
                   <Link
                     key={index}
-                    onClick={(e) => e.preventDefault()}
-                    href={"#!"}
+                    // HAPUS onClick={(e) => e.preventDefault()}
+                    href={value?.link}
+                    // Opsi: Tambah target blank jika ingin buka tab baru (biasanya tidak untuk 'tel:' atau 'mailto:')
+                    // target="_blank" 
                     className="flex items-center gap-2 lg:gap-4 text-sm md:text-base"
                   >
                     <Image
@@ -53,13 +55,15 @@ const ContactBar = () => {
               )}
             </div>
 
-            {/* Social Items */}
+            {/* Social Items (Instagram/LinkedIn/Github) */}
             <div className="flex items-center justify-center md:justify-end gap-4 md:gap-2.5">
               {contactBarData?.socialItems?.map((value: any, index: number) => (
                 <Link
                   key={index}
-                  onClick={(e) => e.preventDefault()}
-                  href={"#!"}
+                  // HAPUS onClick={(e) => e.preventDefault()}
+                  href={value?.link}
+                  target="_blank" // Wajib untuk sosmed agar portfolio tidak tertutup
+                  rel="noopener noreferrer" // Security best practice
                 >
                   <Image
                     src={getImgPath(value?.icon)}
