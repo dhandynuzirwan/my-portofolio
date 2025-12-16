@@ -38,6 +38,7 @@ const LatestWork = () => {
                     key={index}
                     className="group flex flex-col gap-3 xl:gap-6"
                   >
+                    {/* --- BAGIAN GAMBAR --- */}
                     <div className="relative">
                       <Image
                         src={getImgPath(value?.image)}
@@ -46,9 +47,11 @@ const LatestWork = () => {
                         height={414}
                         className="rounded-lg w-full h-full object-cover"
                       />
+                      {/* PERBAIKAN DI SINI: Ganti '#!' dengan value.slug */}
                       <Link
-                        onClick={(e) => e.preventDefault()}
-                        href={"#!"}
+                        href={value.slug} 
+                        target="_blank" // Buka di tab baru
+                        rel="noopener noreferrer" // Security best practice
                         className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
                       >
                         <span className="flex justify-center items-center p-5 w-full">
@@ -77,9 +80,16 @@ const LatestWork = () => {
                         </span>
                       </Link>
                     </div>
+
+                    {/* --- BAGIAN JUDUL --- */}
                     <div className="flex flex-col gap-0 xl:gap-2">
                       <div className="flex items-center justify-between">
-                        <Link href={`${value.slug}`}>
+                        {/* PERBAIKAN DI SINI: Tambahkan target blank */}
+                        <Link 
+                            href={value.slug}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                           <h5>{value?.title}</h5>
                         </Link>
                         <Image
