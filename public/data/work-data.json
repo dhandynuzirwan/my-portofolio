@@ -18,6 +18,12 @@
             "slug": "https://www.arsatraining.com/"
         },
         {
+            "image": "/images/work/total-indo-bangunusa.png",
+            "title": "Management Information System",
+            "client": "PT Total Indo Bangunusa",
+            "slug": "https://github.com/dhandynuzirwan/total-indo-bangunusa"
+        },
+        {
             "image": "/images/work/duta-madinna.png",
             "title": "Website & Dashboard",
             "client": "CV. Duta Madinna Kubah",
