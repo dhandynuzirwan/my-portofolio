@@ -47,14 +47,17 @@ const LatestWork = () => {
                         height={414}
                         className="rounded-lg w-full h-full object-cover"
                       />
-                      {/* PERBAIKAN DI SINI: Ganti '#!' dengan value.slug */}
+                      
                       <Link
-                        href={value.slug} 
-                        target="_blank" // Buka di tab baru
-                        rel="noopener noreferrer" // Security best practice
-                        className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
+                        href={value.slug}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        // PERUBAHAN DI SINI:
+                        // Hapus 'hidden group-hover:flex'
+                        // Ganti dengan 'flex opacity-0 group-hover:opacity-100 transition-all duration-300'
+                        className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full flex rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300"
                       >
-                        <span className="flex justify-center items-center p-5 w-full">
+                        <span className="flex justify-center items-center p-5 w-full h-full">
                           <svg
                             width="65"
                             height="64"

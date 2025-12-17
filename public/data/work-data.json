@@ -16,6 +16,12 @@
             "title": "Website & Dashboard",
             "client": "PT Arsa Jaya Prima",
             "slug": "https://www.arsatraining.com/"
+        },
+        {
+            "image": "/images/work/duta-madinna.png",
+            "title": "Website & Dashboard",
+            "client": "CV. Duta Madinna Kubah",
+            "slug": "https://github.com/dhandynuzirwan/duta-madinna-kubah"
         }
     ]
 }
